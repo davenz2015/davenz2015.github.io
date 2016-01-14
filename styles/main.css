@@ -1,3 +1,16 @@
 h1 {
   color:red;
 }
+
+header {
+  color: #F07818;
+}
+
+body {
+  background-color: #0099CC;
+}
+
+nav ul li {
+  display: inline-block;
+  list-style: none;
+} 
