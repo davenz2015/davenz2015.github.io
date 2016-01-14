@@ -31,3 +31,8 @@ h1 {
 footer {
   padding-top: 40px;
 }
+
+.terms {
+  font-family: arial;
+  font-weight: 600;
+}
