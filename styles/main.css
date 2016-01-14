@@ -28,6 +28,10 @@ h1 {
   text-align: center;
 }
 
+p {
+  padding-top: 5px;
+}
+
 footer {
   padding-top: 40px;
 }
