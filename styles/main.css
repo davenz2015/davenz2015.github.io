@@ -2,8 +2,9 @@ body {
   background-color: #E1470F;
   font-family: arial;
   color: white;
+  vertical-align: middle;
   margin: auto;
-  width: 70%;
+  max-width: 70%;
 }
 
 header {
