@@ -7,7 +7,7 @@ body {
   max-width: 60%;
 }
 
-.homeimage {
+body.homeimage {
   background-image: url("http://www.planwallpaper.com/static/images/city_of_love-wallpaper-5120x3200.jpg");
   background-size: cover;
 }
