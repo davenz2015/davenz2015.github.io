@@ -1,6 +1,6 @@
 body {
   background-color: #E1470F;
-  font-family: arial;
+  font-family: 'Arimo', sans-serif;
   color: white;
   vertical-align: middle;
   margin: auto;
@@ -41,7 +41,8 @@ h1 {
   }
 
   .journey {
-    font-size: 120px;
+    font-size: 4.5em;
+    position: relative;
     text-align: center;
     margin-top: 20px;
   }
