@@ -93,7 +93,7 @@
 }
 
 .main-nav {
-    display: inline-block;
+    display: inline-flex;
     background-color: #3b3738;
     padding-top: .35em;
     padding-bottom: .35em;
