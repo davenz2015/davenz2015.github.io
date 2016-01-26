@@ -92,8 +92,14 @@
     width: 100%;
 }
 
+.main-nav {
+    display: inline-block;
+    background-color: #3b3738;
+    padding-top: .35em;
+    padding-bottom: .35em;
+}    
+
 img {
-  margin-left: auto;
-margin-right: auto;
-display: block;
+  margin : auto;
+   
 }
