@@ -113,6 +113,10 @@ body {
 
 .nav li {
   margin:auto;
+}
+
+.section-heading {
+  text-align: center;
 }     
 
 img {
