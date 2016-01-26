@@ -18,11 +18,11 @@
   padding-right: 0;
 }
 
-
+/*----------------------------------------------
 * {
     border: 1px solid red !important;
 }
-       
+ ------------------------------------------*/      
 /*--------  same as above. this one below from udacity
 * {
     -webkit-box-sizing: border-box;
@@ -97,6 +97,7 @@
     background-color: #3b3738;
     padding-top: .35em;
     padding-bottom: .35em;
+    list-style-type: none;
 }    
 
 img {
