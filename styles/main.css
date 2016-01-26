@@ -118,6 +118,7 @@ body {
 
 img {
   max-width: 98%;
+  border-radius: 0.5em;
 }
 
 .footer {
