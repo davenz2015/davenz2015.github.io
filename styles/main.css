@@ -18,7 +18,7 @@
   padding-right: 0;
 }
 
-/*----------------------------------------------
+---------------------------------------------
 * {
     border: 1px solid red !important;
 }
@@ -98,7 +98,11 @@
     padding-top: .35em;
     padding-bottom: .35em;
     list-style-type: none;
-}    
+} 
+
+.nav li {
+  margin:auto;
+}     
 
 img {
   width: 32em;
