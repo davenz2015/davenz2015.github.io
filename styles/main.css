@@ -116,5 +116,5 @@ body {
 }     
 
 img {
-  width: 32em;
+  max-width: 98%;
 }
