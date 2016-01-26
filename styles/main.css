@@ -92,6 +92,12 @@
     width: 100%;
 }
 
+body {
+  background-image: url("images/concrete.png");
+  cover:100%;
+}
+
+
 .main-nav {
     display: inline-flex;
     background-color: #3b3738;
