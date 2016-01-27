@@ -28,6 +28,11 @@ ul.main-nav {
   flex-wrap: wrap;
 }
 
+.main {
+  margin-top:6em;
+}
+
+
 .section-heading {
   text-align: center;
   margin-bottom: 1em;
