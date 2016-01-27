@@ -99,6 +99,7 @@ body {
 
 
 .main-nav {
+    position:fixed;
     display: inline-flex;
     flex-wrap: wrap;
     background-color: #3b3738;
