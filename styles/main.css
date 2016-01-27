@@ -4,6 +4,9 @@ body {
   font-family: 'Slabo 27px', serif;
 }
 
+ul.main-nav {
+  position:fixed;
+}
 
 .main-nav {
     display: inline-flex;
@@ -14,6 +17,7 @@ body {
     list-style-type: none;
     width:100%
 } 
+
 
 .nav li {
   margin:auto;
