@@ -63,6 +63,7 @@ img {
   padding-left:5em;
 }
 
+/*-----------------------t3 design to web blog.html------------------*/
 /*rotate 90 degrees*/
 #rotate90 {
 /*General*/
@@ -80,3 +81,11 @@ opacity:0.4;
 filter:alpha(opacity=40);
 }
 --------------------------------------*/
+
+.topframes {
+  padding-bottom:2em;
+}
+
+.bottomframes {
+  padding-top:2em;
+}
