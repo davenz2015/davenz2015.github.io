@@ -76,7 +76,10 @@ transform: rotate(90deg);
 -webkit-transform: rotate(90deg);
 /*Opera*/
 -o-transform: rotate(90deg);
+margin-top: 3em;
+margin-bottom: 3em;
 }
+
 /*------------------------alter opacity
 opacity:0.4;
 filter:alpha(opacity=40);
