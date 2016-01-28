@@ -45,3 +45,8 @@ img {
 .footer {
   text-align: center;
 }
+
+/*------------------------blog-template.html-----------------*/
+
+.container {
+  max-width: 800px; }
