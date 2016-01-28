@@ -55,9 +55,9 @@ img {
     margin-top: 4em;
 }   
       
-.eight {
+div.eight.columns {
   margin-top:10em;
-}
+}.eight 
 
 div.four.columns.older {
   padding-left:4em;
