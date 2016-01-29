@@ -1,6 +1,5 @@
 body {
   background-image: url("images/concrete.png");
-  cover:100%;
   font-family: 'Slabo 27px', serif;
 }
 
@@ -16,7 +15,7 @@ ul.main-nav {
     padding-top: .35em;
     padding-bottom: .35em;
     list-style-type: none;
-    width:100%
+    width:100%;
 } 
 
 
