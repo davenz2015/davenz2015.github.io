@@ -52,6 +52,14 @@ a {
   margin-top:4.5em;
 }
 
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    text-decoration: underline;
+}
+
 
 .section-heading {
   text-align: center;
