@@ -1,69 +1,113 @@
 <!DOCTYPE html>
-<html>
-  <head>
-  <!-- title appars on page tab   -->
-    <title>TechBlog Part1</title>
-    <meta charset="UTF-8">
-    <link href="../styles/main.css" rel="stylesheet" type="text/css">
-  </head>
-  <body>
+<html lang="en">
+<head>
 
-    <div class="nav">
-      <div class="container">
-        <ul>
-          <li><a href="../index.html">Home</a></li>
-        </ul>
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>TechBlog Part1</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css">
+  <link href="../styles/main.css" rel="stylesheet" type="text/css">
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="images/favicon.png">
+
+</head>
+<body>
+
+  <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+  <div class="section nav">
+    <div class="row">
+      <ul class="main-nav">
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="blog-template.html">Blog</a></li>
+        <li><a href="#">Projects</a></li>
+        <li><a href="#">Archive</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+
+<section class="main">
+  <div class="container">
+    <div class="row">
+      <div class="12 columns">
+      <h1>TechBlog Part1</h1>
+      <h3>week 2</h3>
+
+        <div class="wishlist">
+          <div class="container">
+            <h2>Design and structural features wishlist</h2>
+            <ul>
+              <li>a side bar (nav?)</li>
+              <li>background pattern</li>
+              <li>rounded boxes</li>
+            </ul>
+          </div>
+        </div>
+    
+        <div class="questions">
+          <div class="container">
+            <h2>Can you think of an analogy to describe HTML, CSS and the DOM? How would you describe it to your non-technical friend?</h2>
+              <p>
+                I would maybe use the analogy of a house. The html is the basic structure of a webpage and has different parts to it, much the same as framing gives the house its basic structure and is comprised of different patrs too - bedrooms, kitchen, bathrooms etc.
+              </p>
+              <p>
+                CSS styles a webpage and defines how it looks - colors, shapes, positions of different elements. Not every webpage is decorated the same and neither is every house. So with a house that would be like whether you want paint or wallpaper on the walls, carpet or tiles on the floor and what colors you would want to use.
+              </p>
+              <p>
+                The DOM (Document Object Model) is an program that shows the structure of a webpage and can access and manipulate it. This would be like the house plans on the Architects computer. It shows all of the house, and they can make changes to it and immediately see what it will look like with those changes incorporated.
+              </p>
+
+            <h2>What is meant by boxifying design?</h2>
+              <p>
+                If you get a web design brief the first thing you do is boxify it. A webpage is made up of boxes and thinking in terms of boxes makes life alot easier. When we boxify a design we draw a box around every visual element, starting with the biggest box you can see and working toward smaller boxes.
+              </p>
+
+              <h2>What is the box model?</h2>
+              <p>
+                As above, everything on a webpage is made up of boxes. The box model is a box that wraps around every html element, allows us to define space between elements and comprises of four things;
+              </p>
+              <ol>
+                <li>Margins - an empty area seperating the element from its neighbours.</li>
+                <li>Borders - a border that goes around padding and content.</li>
+                <li>Padding - the area between the content and border.</li>
+                <li>Content - contains the actual content, text and images.</li>
+              </ol>
+          </div>
+        </div>
       </div>
     </div>
-    
-    <div class="heading">
-      <div class="container">
-        <h1 class="headup">Technical Blog</h1>
-        <h3 class="part">Part 1</h3>
-      </div>
-    </div>
-    
-    <div class="wishlist">
-      <div class="container">
-        <h2>Design and structural features wishlist</h2>
-        <ul>
-          <li>a side bar (nav?)</li>
-          <li>background pattern</li>
-          <li>rounded boxes</li>
-        </ul>
-      </div>
-    </div>
-    
-    <div class="questions">
-      <div class="container">
-        <h2>Can you think of an analogy to describe HTML, CSS and the DOM? How would you describe it to your non-technical friend?</h2>
-          <p>I would maybe use the analogy of a house. The html is the basic structure of a webpage and has different parts to it, much the same as framing gives the house its basic structure and is comprised of different patrs too - bedrooms, kitchen, bathrooms etc.
-          </p>
-          <p>CSS styles a webpage and defines how it looks - colors, shapes, positions of different elements. Not every webpage is decorated the same and neither is every house. So with a house that would be like whether you want paint or wallpaper on the walls, carpet or tiles on the floor and what colors you would want to use.
-          </p>
-          <p>The DOM (Document Object Model) is an program that shows the structure of a webpage and can access and manipulate it. This would be like the house plans on the Architects computer. It shows all of the house, and they can make changes to it and immediately see what it will look like with those changes incorporated.
-          </p>
+  </section>
 
-        <h2>What is meant by boxifying design?</h2>
-          <p>If you get a web design brief the first thing you do is boxify it. A webpage is made up of boxes and thinking in terms of boxes makes life alot easier. When we boxify a design we draw a box around every visual element, starting with the biggest box you can see and working toward smaller boxes.
-          </p>
+       
+             
 
-          <h2>What is the box model?</h2>
-          <p>As above, everything on a webpage is made up of boxes. The box model is a box that wraps around every html element, allows us to define space between elements and comprises of four things;
-          </p>
-          <ol>
-            <li>Margins - an empty area seperating the element from its neighbours.</li>
-            <li>Borders - a border that goes around padding and content.</li>
-            <li>Padding - the area between the content and border.</li>
-            <li>Content - contains the actual content, text and images.</li>
-          </ol>
-      </div>  
-    </div>
-    
-    <div class="footer">
-      <div class="container">
-        <p>Copyright of <em>Newbies</em> 2016</p><a class="terms" href="#">Terms of Use</a>
-      </div>  
-    </div>    
-  </body>
+  <div class="section footer">
+      <small>&copy; of <em>Newbies</em> 2016</small><br><a class="terms" href="#">Terms of Use</a> 
+  </div>
+
+<!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+</body>
 </html>
+
+
