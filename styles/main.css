@@ -37,9 +37,13 @@ ul.main-nav {
   text-align: center;
 }     
 
-img {
+.eiffel {
   max-width: 98%;
   border-radius: 0.5em;
+}
+
+p {
+  text-align: justify;
 }
 
 .footer {
