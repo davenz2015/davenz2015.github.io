@@ -28,6 +28,10 @@ ul.main-nav {
   flex-wrap: wrap;
 }
 
+.a {
+  text-decoration: none;
+}
+
 .main {
   margin-top:4.5em;
 }
