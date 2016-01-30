@@ -108,10 +108,8 @@ p {
 }
 
 
-.frameimg {
-margin-top: 3em;
-margin-bottom: 3em;
-max-width: 15em;
+.frameimage {
+  max-width: 14em;
 }
 
 .topframes {
