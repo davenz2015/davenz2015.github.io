@@ -41,6 +41,9 @@ ul.main-nav {
   max-width: 98%;
   border-radius: 0.5em;
 }
+h2 {
+  font-size: 2em;
+}
 
 p {
   text-align: justify;
