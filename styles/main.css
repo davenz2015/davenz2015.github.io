@@ -41,8 +41,17 @@ ul.main-nav {
   max-width: 98%;
   border-radius: 0.5em;
 }
+
+h1 {
+  text-align: center;
+}
+
 h2 {
   font-size: 2em;
+}
+
+h3 {
+  text-align: center;
 }
 
 p {
