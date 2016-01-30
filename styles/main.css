@@ -12,8 +12,8 @@ ul.main-nav {
     flex-wrap: wrap;
     background-color: #3b3738;
     z-index: 1;
-    padding-top: .35em;
-    padding-bottom: .35em;
+    padding-top: .4em;
+    padding-bottom: .4em;
     list-style-type: none;
     width:100%;
 } 
@@ -28,8 +28,24 @@ ul.main-nav {
   flex-wrap: wrap;
 }
 
-.a {
+a {
   text-decoration: none;
+}
+
+.boing:link, .boing:visited {
+    background-color: #3b3738;
+    color: white;
+    padding: 5px 15px;
+    text-align: center; 
+    text-decoration: none;
+    display: inline-block;
+}
+
+
+.boing:hover, .boing:active {
+    border:2px solid #0fa0ce;
+    border-radius: 5px;
+    background-color: #3b3738;
 }
 
 .main {
